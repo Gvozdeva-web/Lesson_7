@@ -1,0 +1,242 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Comforter:regular&display=swap);
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.container {
+	max-width: 810px;
+	margin: 0px auto 50px;
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	color: #424551;
+	line-height: 165%;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.title-1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin-bottom: 26px;
+}
+.date-time {
+	margin-bottom: 40px;
+}
+.list-date-time {
+	display: flex;
+	color: #787a80;
+}
+.list-date-time-item {
+	background: url("../img/Calendar.png") 0 center no-repeat;
+	padding: 0px 0px 0px 24px;
+	margin-right: 24px;
+}
+
+.list-date-time-item-1 {
+	background: url("../img/Union.png") 0 center no-repeat;
+	padding: 0px 0px 0px 24px;
+}
+.img {
+	border-radius: 4px;
+	margin-bottom: 60px;
+}
+
+.text-1 {
+	margin-bottom: 60px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin-bottom: 36px;
+}
+.text-2 {
+	margin-bottom: 36px;
+}
+.text-2-1 {
+	margin-bottom: 28px;
+}
+
+.text-3 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin-bottom: 48px;
+	background: url("../img/icon1.png") 0 0 no-repeat;
+	padding: 0px 0px 0px 58px;
+}
+.text-4 {
+	margin-bottom: 24px;
+}
+
+.list {
+	margin-bottom: 24px;
+}
+.list-item {
+	padding-left: 32px;
+	margin-bottom: 4px;
+	background: url("../img/Vector.png") 0 0 no-repeat;
+}
+/* =======================================Линия==================================== */
+.line {
+	min-width: 100%;
+	background-color: crimson;
+	height: 5px;
+	margin-bottom: 50px;
+}
+
+/* ========================2 статья =================================*/
+.conteiner-block {
+	max-width: 810px;
+	margin: 0px auto 100px;
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	color: #424551;
+	line-height: 165%;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.conteiner-1 {
+	max-width: 420px;
+	margin: 0 0 0 auto;
+}
+
+.subtitle {
+	font-weight: bold;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+	margin-bottom: 8px;
+}
+.title-2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin-bottom: 40px;
+}
+.list-1 {
+	margin-bottom: 48px;
+}
+.list-item-1 {
+	padding-left: 32px;
+	margin-bottom: 12px;
+	background: url("../img/Vector.png") 0 0 no-repeat;
+}
+.block-button {
+	margin-bottom: 100px;
+}
+
+.button {
+	align-items: center;
+	position: absolute;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 0px 32px 0px 32px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	width: 161px;
+	height: 44px;
+	font-size: 14px;
+	line-height: 3.1;
+}
+/* ==============================================полигон=========================================== */
+.conteiner-block-2 {
+	background: url(../img/top_dark.png) 0 0 / cover;
+	padding-top: 50px;
+}
+.container-2 {
+	max-width: 1040px;
+	margin: 0 auto;
+	font-family: "Comforter", fantasy;
+	font-size: 30px;
+	color: white;
+	line-height: 160%;
+}
+.header-1 {
+	margin-bottom: 50px;
+}
+.star {
+	font-family: "Comforter", fantasy;
+	font-size: 150px;
+	color: white;
+	text-align: center;
+	border-radius: 50%;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.3);
+	line-height: 150%;
+	box-shadow: 10px 10px 3px white;
+}
+.begin {
+	border: 2px solid white;
+	border-radius: 20px;
+	box-shadow: 10px 10px 12px white;
+	margin: 0px auto 150px;
+	max-width: 700px;
+	max-height: 400px;
+	text-align: center;
+	overflow: auto;
+	background: url(../img/sunrise.png) 0 0 / 100% 100% fixed;
+	color: black;
+	font-weight: bold;
+}
+.block-constellations {
+	margin: 0px auto;
+	line-height: 150%;
+	font-size: 50px;
+	text-align: center;
+}
+.constellations {
+	font-size: 120px;
+	color: gold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.block-constellations-text {
+	color: aliceblue;
+	margin-bottom: 50px;
+}
+.sozvezdie {
+	background: url(../img/bang.png) 50% 50% no-repeat fixed;
+	max-width: 100%;
+	max-height: 100%;
+	border: 4px solid black;
+	overflow: auto;
+	font-size: 50px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 12px black;
+	padding: 40px 30px;
+}
+
+.moon {
+	background: url(../img/moon-1.png) 50% 50% no-repeat fixed;
+	max-width: 100%;
+	max-height: 100%;
+	border: 4px solid black;
+	overflow: auto;
+	box-shadow: 10px 10px 12px black;
+	border-radius: 20px;
+	color: black;
+	padding: 40px 30px;
+}
+.sun {
+	font-size: 150px;
+	padding: 20px 0px;
+}
+.block-sun {
+	background: url(../img/sun.png) center no-repeat fixed, url(../img/cloud.png) top left no-repeat, url(../img/cloud.png) center right no-repeat;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	border: 4px solid black;
+	border-radius: 20px;
+	box-shadow: 10px 10px 12px black;
+	color: blue;
+	padding: 40px 30px;
+}
